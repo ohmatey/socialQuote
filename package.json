@@ -1,0 +1,28 @@
+{
+  "name": "instaquote",
+  "version": "0.1.0",
+  "engines": {
+    "sketch": ">=3.0"
+  },
+  "skpm": {
+    "name": "instaquote",
+    "manifest": "src/manifest.json",
+    "main": "instaquote.sketchplugin",
+    "assets": [
+      "assets/**/*"
+    ]
+  },
+  "scripts": {
+    "build": "skpm-build",
+    "watch": "skpm-build --watch",
+    "start": "skpm-build --watch --run",
+    "postinstall": "npm run build && skpm-link"
+  },
+  "devDependencies": {
+    "@skpm/builder": "^0.5.2"
+  },
+  "author": "Aaron McPherson <aaronmcpherson@hotmail.com>",
+  "dependencies": {
+    "sketch-module-fetch-polyfill": "^0.1.4"
+  }
+}

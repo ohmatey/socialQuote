@@ -1,0 +1,25 @@
+{
+  "compatibleVersion": 3,
+  "bundleVersion": 1,
+  "icon": "icon.png",
+  "commands": [
+    {
+      "name": "generate quotes",
+      "identifier": "generate-quotes",
+      "script": "generate-quotes.js"
+    }
+  ],
+  "menu": {
+    "title": "instaquote",
+    "items": [
+      "generate-quotes"
+    ]
+  },
+  "version": "0.1.0",
+  "name": "instaquote",
+  "identifier": "instaquote",
+  "disableCocoaScriptPreprocessor": true,
+  "appcast": "https://raw.githubusercontent.com//master/.appcast.xml",
+  "author": "Aaron McPherson",
+  "authorEmail": "aaronmcpherson@hotmail.com"
+}

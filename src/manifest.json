@@ -1,0 +1,18 @@
+{
+  "compatibleVersion": 3,
+  "bundleVersion": 1,
+  "icon": "icon.png",
+  "commands": [
+    {
+      "name": "generate quotes",
+      "identifier": "generate-quotes",
+      "script": "./generate-quotes.js"
+    }
+  ],
+  "menu": {
+    "title": "instaquote",
+    "items": [
+      "generate-quotes"
+    ]
+  }
+}
